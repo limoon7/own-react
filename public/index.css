@@ -1,0 +1,30 @@
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  cursor: pointer;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+}
+.container div {
+  flex: 1;
+  width: 300px;
+  font-size: 60px;
+  text-align: center
+}
+
+.container .left {
+  text-align: right!important;
+}
+
+.container div:last-child {
+  text-align: left;
+}
